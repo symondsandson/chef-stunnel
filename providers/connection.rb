@@ -11,6 +11,7 @@ action :create do
     :accept => new_resource.accept,
     :cafile => new_resource.cafile,
     :cert => new_resource.cert,
+    :key => new_resource.key,
     :verify => new_resource.verify,
     :timeout_close => new_resource.timeout_close,
     :client => new_resource.client
